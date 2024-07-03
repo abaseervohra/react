@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#heading{
+  color: rgb(92, 224, 15);
+  background-color: black;
+}

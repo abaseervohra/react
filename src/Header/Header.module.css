@@ -1,0 +1,117 @@
+
+  
+  .header_top {
+   display: flex;
+   justify-content: space-between;
+   background-color: #00306E;
+  
+  }
+  
+  .header_top_left {
+    display: flex;
+    background-color: #00306E;
+    align-items: center;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+  }
+  .header_top_left li{
+    display: flex;
+    align-items: center;
+    
+  }
+  .header_top_left  li svg{
+    padding-right: 8px;
+  }
+  .header_top_left a{
+    color: #fff;
+  outline: none !important;
+  text-decoration: none !important;
+  transition: all .5s ease 0s;
+
+  }
+  .header_top_right li {
+    display: flex;
+    background-color: #00306E;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+ 
+
+  }
+  .header_top_right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    /* border: 2px solid red; */
+ 
+    
+  }
+  .header_top_right li a span {
+    color: white; /* This will make the icons white */
+    margin-right: 15px;
+}
+/* YourStylesFile.module.css */
+.header_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid pink;
+}
+
+.header_middle_left {
+  /* display: flex; */
+  align-items: center;
+}
+
+.header_middle_right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid red; */
+  margin-right: 10px;
+}
+
+.header_middle_right li {
+  margin: 0 10px;
+}
+.listing_header{
+  display: flex;
+  list-style: none;
+}
+.header_middle_right input{
+  background: #f4f5f5;
+  border-radius: 6px;
+  padding: 7px 18px 9px 25px;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding-right: 10px; /* Adjust based on icon size */
+  width: 100%;
+}
+
+.search-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa; /* Adjust color as needed */
+}
+
+
+  /* Add other styles as needed */
+  
