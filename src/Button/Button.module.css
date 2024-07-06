@@ -1,6 +1,14 @@
 
 .btn{
-    color: white;
-    background-color: rgb(144, 144, 240);
-    border: none;
+  border: 2px solid rgba(0, 48, 110, .1);
+  border-radius: 6px;
+  color: #00306e;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 14px 35px;
+  outline: none !important;
+  text-decoration: none !important;
+  transition: all .5s ease 0s;
   }

@@ -4,24 +4,28 @@
     background-image: url('../assets/1.ddb463a076b58bbe0ea3.jpg');
     background-size: cover; /* Adjust this as needed */
     background-repeat: no-repeat; /* Prevent repeating */
-    height: 500px; /* Example height */
+    height: auto;
+    max-width: 100%;
     display: flex;
     /* border: 2px solid blue; */
     /* Add other styles as needed */
   }
   .slider_left{
     /* border: 2px solid brown; */
-    width: 600px;
-    margin: 40px;
+    width: 700px;
+    font-family: Source Sans Pro;
+    margin: 100px;
+    margin-bottom: 170;
+    padding-bottom: 40px;
 
   }
   .slider_content {
     background: #d2093c;
     color: #fff;
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 400;
     line-height: 32px;
-    margin-bottom: 23px;
+    margin-bottom: 90px;
     padding: 3px 15px 8px;
     /* border: 2px solid red; */
 }
@@ -32,20 +36,24 @@
     font-weight: 700;
     letter-spacing: -2px;
     line-height: 74px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     margin-top: 18px;
 }
 .react_btn_border {
-    background: transparent;
-    /* border: 2px solid hsla(0, 0%, 100%, .3); */
-    border-radius: 6px;
-    color: #fdfeff;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20.11px;
-    padding: 15px 35px;
-    transition: all .5s ease 0s;
+  background: none;
+  color: #fff;
+  border: 2px solid hsla(0, 0%, 100%, .3);
+  border-radius: 6px;
+  
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.11px;
+  padding: 15px 35px;
+  transition: all .5s ease 0s;
+  outline: none !important;
+  text-decoration: none !important;
+
 }
 
 

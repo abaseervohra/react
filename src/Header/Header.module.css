@@ -1,5 +1,7 @@
 
-  
+  *{
+    font-family: "Source Sans 3";
+  }
   .header_top {
    display: flex;
    justify-content: space-between;
@@ -62,7 +64,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
 }
 
 .header_middle_left {
@@ -82,7 +84,11 @@
 }
 
 .header_middle_right li {
-  margin: 0 10px;
+  color: #00306e;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 32px 34px;
 }
 .listing_header{
   display: flex;
@@ -94,23 +100,22 @@
   padding: 7px 18px 9px 25px;
 }
 
-.search-container {
-  position: relative;
-  display: inline-block;
+.search-form {
+  background: #f4f5f5;
+  border-radius: 3px;
+  padding: 60px 60px 20px 50px;
+  border: none;
+}
+.search-form [type=text] {
+  background: none;
+  border: none;
+  color: #4b5b70;
+  font-size: 14px;
+  outline: none;
 }
 
-.search-container input[type="text"] {
-  padding-right: 10px; /* Adjust based on icon size */
-  width: 100%;
-}
 
-.search-container i {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #aaa; /* Adjust color as needed */
-}
+
 
 
   /* Add other styles as needed */

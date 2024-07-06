@@ -3,6 +3,10 @@ import './App.css'
 // import { Button } from "./Button/Button";
 import Headertop from "./Header/Headertop";
 import Slider from "./Slider/Slider"
+import Card from "./Card/Card";
+import About from "./About/About"
+import Campus from "./Campus/Campus"
+import Footer from "./Footer/Footer";
 // import Card from "./Card/Card";
      
 const App = ()=>{
@@ -30,6 +34,10 @@ const App = ()=>{
      <Button text="Logout"/> */}
      <Headertop />
      <Slider />
+     <Card />
+     <About />.
+     <Campus />
+     <Footer />
     </>
   )
 }
