@@ -1,4 +1,8 @@
-
+.last_li a {
+    color: #00306e;
+    font-size: 18px;
+    font-weight: 700;
+}
 .container{
     max-width: 1300px;
     /* border: 2px solid red; */
