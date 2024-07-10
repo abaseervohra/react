@@ -1,0 +1,80 @@
+.Cards{
+    border: 1px solid gainsboro;
+    background-color: #FFFFFF;
+    width: 290px;
+}
+.Cards img{
+    height: auto;
+    max-width:100%;
+
+}
+.card21 {
+    display: flex;
+    text-align: center;
+ 
+    padding-left: 35px;
+    padding-right: 25px;
+   
+}
+.Cards ul li{
+    color: #d2092c;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 30px;
+    padding-left: 16px;
+    position: relative;
+    
+}
+.Cards ul li:last-child{
+    color: #00306e;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 16px;
+    position: relative;
+
+}
+.Cards h1{
+    color: #00306e;
+    outline: none !important;
+    text-decoration: none !important;
+    transition: all .5s ease 0s;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 14px 0 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.coursestudent{
+    display: flex;
+    text-align: center;
+        border-top: 1px solid #ededed;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+    
+}
+.coursestudent li{
+    list-style: none;
+}
+.coursestudent li svg{
+    
+        color: #00306e;
+        width: 18px;
+    
+}
+.stu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.react__user {
+    color: #d2093c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card2content{
+    padding: 25px 0 17px;
+}

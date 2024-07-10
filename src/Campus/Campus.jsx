@@ -4,6 +4,7 @@ import campus from "../assets/campus.png";
 import campus1 from "../assets/campus1.svg"
 import campus2 from "../assets/campus2.svg"
 import campus3 from "../assets/campus3.svg"
+import { Button } from "../Button/Button";
 
   const Campus = () => {
   return (
@@ -118,6 +119,7 @@ import campus3 from "../assets/campus3.svg"
             <img src={campus} />
           </div>
         </div>
+        <Button text="More about Campus Life" />
        </div>
       </div>
     </>

@@ -1,0 +1,26 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F9FAFA;
+    /* border: 2px solid red; */
+}
+.Card2_section{
+    background-color: #F9FAFA;
+}
+.heading_text {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin: 50px 0px 50px 0px;
+}
+.card_section_content button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 50px;
+}

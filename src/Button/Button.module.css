@@ -1,9 +1,16 @@
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .btn{
+  display: flex;
+  align-items: center;
   border: 2px solid rgba(0, 48, 110, .1);
   border-radius: 6px;
   color: #00306e;
-  display: inline-block;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -11,4 +18,8 @@
   outline: none !important;
   text-decoration: none !important;
   transition: all .5s ease 0s;
+
+  }
+  .featherArrowRight {
+    margin-left: 8px; /* Adjust as needed */
   }
